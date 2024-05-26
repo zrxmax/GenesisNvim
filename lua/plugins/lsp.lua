@@ -1,6 +1,8 @@
 
 -- Setup language servers.
 local lspconfig = require('lspconfig')
+
+lspconfig.lua_ls.setup{}
 lspconfig.pyright.setup {
 	settings = {
 	    pyright = {

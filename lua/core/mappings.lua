@@ -24,3 +24,7 @@ vim.keymap.set('n', '<leader>nl', ':TodoTelescope<CR>')
 
 -- ToggleTerm
 vim.keymap.set('n', '<leader>s', ':ToggleTerm direction=float<CR>')
+
+
+-- Clear Highlighting after search
+vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>')

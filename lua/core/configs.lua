@@ -9,7 +9,7 @@ vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
-vim.opt.shell = "/bin/fish"            -- Shell по умолчанию
+-- vim.opt.shell = "/bin/zsh"            -- Shell path, default shell if unset
 vim.opt.swapfile = false               -- Отключить swap файлы nvim
 vim.opt.encoding = "utf-8"             -- Кодировка utf-8
 vim.opt.cursorline = true              -- Выделять активную строку где находится курсор
@@ -21,7 +21,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- Scroll
-vim.opt.so = 30                       -- При скролле курсор всегда по центру
+vim.opt.so = 30                        -- При скролле курсор всегда по центру
 
 -- Search
 vim.opt.ignorecase = true              -- Игнорировать регистр при поиске
